@@ -26,12 +26,12 @@ export const links: Route.LinksFunction = () => [
 ];
 
 export function Layout({ children }: { children: React.ReactNode }) {
-  const {init}=usePuterStore();
+  const { init } = usePuterStore();
 
-  useEffect(()=>{
+  useEffect(() => {
     init();
-  },[init]);
-  
+  }, [init]);
+
   return (
     <html lang="en">
       <head>
@@ -39,6 +39,21 @@ export function Layout({ children }: { children: React.ReactNode }) {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <Meta />
         <Links />
+        {/* Google Analytics */}
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-BHKKQRCPR7"
+        ></script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+              window.dataLayer = window.dataLayer || [];
+              function gtag(){dataLayer.push(arguments);}
+              gtag('js', new Date());
+              gtag('config', 'G-BHKKQRCPR7');
+            `,
+          }}
+        />
       </head>
       <body>
         <script src="https://js.puter.com/v2/"></script>
