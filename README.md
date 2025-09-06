@@ -80,4 +80,3 @@ JobSync is designed with **privacy-first principles**. All resumes and personal 
 Usage insights and traffic data are tracked with **Google Analytics** to help improve user experience.
 ---
 
-Would you like me to **add shields.io badges** (for Node.js, React, License, etc.) at the top of your README to make it look more professional?
