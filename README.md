@@ -1,7 +1,3 @@
-Here’s a more polished and professional version of your **JobSync README** with improved formatting, readability, and styling. I’ve added consistent section headers, badges, callouts, and code blocks for better presentation:
-
----
-
 # 🚀 JobSync
 
 **JobSync** is an **AI-powered resume screening tool** that helps users evaluate how well their resume matches a specific job description. The application provides a **compatibility score** and **ATS-based suggestions** to optimize resumes and improve job prospects — all while keeping data private and secure.
