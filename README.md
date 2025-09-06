@@ -54,16 +54,6 @@ cd JobSync
 npm install   # or yarn install
 ````
 
-### ⚙️ Environment Variables
-
-Create a `.env` file in the project root and configure your API keys:
-
-```bash
-# Example .env file
-REACT_APP_PUTER_API_KEY=your_puter_api_key
-REACT_APP_CLAUDE_API_KEY=your_claude_api_key
-```
-
 > 🔑 **Note:** Variable names may differ. Check the project’s source code for the correct keys.
 
 ---
@@ -76,16 +66,6 @@ Start the development server:
 npm run dev
 ```
 
-If a custom script is used, verify under the `"scripts"` section in `package.json`.
-
----
-
-## 📌 Project Overview Screenshot (Optional)
-
-*(You can add an app screenshot or GIF demo here for visual context.)*
-
----
-
 ## 🛡️ Security & Privacy
 
 JobSync is designed with **privacy-first principles**.
@@ -97,20 +77,4 @@ All resumes and personal data are processed securely via **Puter’s personal cl
 
 Usage insights and traffic data are tracked with **Google Analytics** to help improve user experience.
 
----
-
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome!
-Feel free to fork the repo and submit a pull request.
-
----
-
-## 📜 License
-
-This project is licensed under the [MIT License](LICENSE).
-
-```
-
-Do you also want me to include **shields.io badges** (like React, Node.js, MIT License) at the top for an even more professional look?
 ```
